@@ -1,0 +1,100 @@
+span.disabled + span.disabled {
+	margin-left:0.1rem;
+}
+
+.disabled{
+		background-image: url(img/check.png);
+		background-size: 50px; /* Super important sinon l'image est trop grande pour etre affichée !*/
+		display : flex;
+		align-items: center;
+		justify-content: center;
+		width: 50px;
+		height: 50px;
+		border: 1px solid;
+		border-color: black;
+		box-shadow: 1px 1px 0px #aaa;
+		background-color: lightgrey;
+		border-radius: 5px;
+		margin-left: 1rem;
+		flex-basis: 3rem; /*viens annuler width et height car plus petit*/
+		transform: skewY(-10deg) rotateY(50deg);
+}
+
+.tofind {
+	background-image: url(img/question.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 25px;
+    background-color: yellow;
+	}
+	
+.notfounded{
+		background-image: url(img/question-grayscale.png);
+    	background-repeat: no-repeat;
+    	background-position: center;
+    	background-size: 25px;
+		}
+		
+.founded{
+		background-image: url(img/check.png);
+    	background-repeat: no-repeat;
+    	background-position: 75% 50%;
+    	background-size: 15px;
+	}
+	
+header a:hover {
+	/*Code trouvé sur internet*/
+	-webkit-transform:scale(1.25); /* Safari et Chrome */
+	-moz-transform:scale(1.25); /* Firefox */
+	-ms-transform:scale(1.25); /* Internet Explorer 9 */
+	-o-transform:scale(1.25); /* Opera */
+	transform:scale(1.25);
+}
+
+header nav a {
+		display : flex;
+		width: 50px;
+		height: 50px;
+		border: 1px solid;
+		border-color: black;
+		
+		flex-basis: 3rem; /*viens annuler width et height car plus petit*/
+		box-shadow: 1px 1px 0px #aaa;
+		background-color: lightgreen;
+		border-radius: 5px;
+		margin-left: 1rem;
+		align-items: center;
+		justify-content: center;
+		display: flex;
+		
+	}
+	
+header nav {
+	display : flex;
+	align-items: center;
+	}
+	
+	
+	
+#menu{
+		display: flex;
+		width: auto;
+		height: auto;
+		background-color: green;
+		padding: 20px;
+		text-align: center;
+		justify-content: center;
+		align-items: center;
+		border-radius: 5px;
+	}
+	
+#stats{
+		width: auto;
+		height: auto;
+		background-color: lightgreen;
+		padding: 20px;
+		text-align: center;
+		justify-content: center;
+		align-items: center;
+		border-radius: 5px;
+	}
