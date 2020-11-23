@@ -1,6 +1,12 @@
 # portfolio
 Portfolio général, composé de projets scolaires et personnels.
 
+* Jeu "Les Batisseurs" en Java (Septembre 2020) :<br/>
+Projet scolaire dans le cadre d'un enseignement visant à developper les compétences professionnels.<br/>
+Utilisation de méthodes agiles (Scrum/Kanban) au sein d'un équipe de 5 étudiants afin de produire un rendu hebdomadaire.<br/>
+Construction complète d'un jeu non graphique, recupération des cartes à jouer dans un format csv, mise en place d'une IA (faible)
+Nous n'avons pas l'autorisation de rendre ce projet public, cependant, je suis totalement disposé à partager ces fichiers lors d'un entretien pour bien se rendre compte du travail que ce projet nous a demandé.<br/>
+
 * <a href="/memoryGame" title="link to project" target="_blank">Jeu de mémoire</a> (Mars 2020) :<br/>
 Projet scolaire dans le cadre d'un enseignement HTML/PHP<br/>
 Gestion d'état (session)<br/>
